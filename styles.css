@@ -4,12 +4,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #FAFAFA;
-    font: 12pt "Tahoma";
+    font-family: "Open Sans";
+    font-size: 12px;
 }
-* {
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-}
+
 .page {
     width: 210mm;
     min-height: 297mm;
@@ -71,10 +69,57 @@ body {
     margin-right: auto;   
   }
 
+.flex-heading{
+    display: -webkit-flex;
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px 10px;
+    background-color: #d5f2fd;
+}
+
 #header-text {
     font-size: 15px;
     font-weight: bold;
     text-align: center;
     color: white;
     padding: 0px;
+}
+
+#title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin-left: 10px;
+}
+
+h1 { 
+    font-family: "Merriweather"; 
+    font-size: 50px; 
+    font-style: normal; 
+    font-variant: bolder; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+}
+
+table {
+    border:0px solid #ffffff;
+    margin: 0 auto;
+}
+
+.section {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border:0px solid #ffffff;
+}
+
+.section-heading{
+    font-family: "Merriweather";
+    font-size: 20px;
 }
