@@ -14,13 +14,13 @@ body {
     margin: 10mm auto;
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
     border-radius: 5px;
-    background: white;
+    background: #FAFAFA;
 }
 
 
 @page {
     size: A4;
-    margin: 30mm 45mm 30mm 45mm;
+    margin: 0;
 }
 
 @media print {
@@ -30,7 +30,7 @@ body {
         /* margin: 30mm 45mm 30mm 45mm;      */
     }
     .page {
-        margin: 30mm 45mm 30mm 45mm;   
+        margin: 0;   
         border: initial;
         border-radius: initial;
         width: initial;
@@ -54,7 +54,7 @@ body {
     
     padding: 0px 10px;
     /* border: 2px solid grey; */
-    background-color: white;
+    background-color: #FAFAFA;
     /* margin: 15px 15px 0px 15px; */
 }
 .flex-heading{
@@ -65,7 +65,7 @@ body {
     justify-content: space-between;
     align-self: flex-end;
     padding: 0px 10px;
-    background-color: #d5f2fd;
+    background-color: #FAFAFA;
     /* border: 2px solid grey; */
 }
 
@@ -126,7 +126,7 @@ h1 {
     margin: 20px 20px 5px 25px;
 
     padding: 5px;
-    border:0px solid #ffffff;
+    border:0px solid #FAFAFA;
 }
 
 .section-heading{
@@ -135,7 +135,7 @@ h1 {
 }
 
 table {
-    border: 0px solid #ffffff;
+    border: 0px solid #FAFAFA;
     margin: 0 auto;
     font-size: 12px;
     width: 100%;
